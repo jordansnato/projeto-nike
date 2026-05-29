@@ -61,7 +61,7 @@ header{
     display: flex;
     align-items: center;
     gap: 50px;
-
+    margin-bottom: 10px;
     padding: 0 70px;
 }
 
@@ -140,4 +140,15 @@ nav a:hover::after{
     font-size: 27px !important;
     color: rgb(0, 0, 0);
     cursor: pointer;
+}
+
+.img-main img{
+    height: auto;
+    max-width: 100%;
+}
+
+.text-h1{
+    olorrgb(42, 42, 42);
+    display:inline;
+    font-family: HelveticaNeue, "HelveticaNeue Fallback: Arial";
 }
