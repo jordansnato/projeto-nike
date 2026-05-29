@@ -1,0 +1,143 @@
+:root {
+    --cor-primaria--: #000;
+    --cor-secundaria: #fff
+    ;
+    --cor-destaque: #8f8580;
+    --fonte: 'Segoe UI', Arial, sans-serif;
+    --raio: 10px;
+    --sombra: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%; 
+}
+
+/* Barra de cima */
+
+.top-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 12px 70px;
+}
+
+.top-header a{
+    /* color: cor var(--cor-primaria--); */
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+.top-header a::after{
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -4px;
+
+    width: 0%;
+    height: 1px;
+
+    background-color: black;
+
+    transition: width 0.5s ease;
+}
+
+.top-header a:hover::after{
+    width: 100%;
+}
+
+/* barra principal */
+
+.main-header{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    padding: 0 70px;
+}
+
+.main-header img{
+    width: 90px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+}
+
+nav a{
+    font-family :HelveticaNeue, "HelveticaNeue Fallback: Arial";
+    color: inherit;
+    font-size: 1.1rem;
+    font-weight: 550;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+a{
+    position: relative;
+    color: black;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -4px;
+
+    width: 0%;
+    height: 3px;
+
+    background-color: black;
+
+    transition: width 0.5s ease;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-left:20%;
+
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+
+
+.search-box input{
+    border: none;
+    outline: none;
+
+    width: 120px;
+
+    font-size: 1rem;
+}
+
+.search-box i{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-size: 27px !important;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
