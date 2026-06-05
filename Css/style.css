@@ -294,7 +294,71 @@ h1{
     font-size:35px;
     font-weight: 550;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.section-clothes-mountain img{
+    width: 100%;
+    height: 712px;
+    margin-bottom:50px ;
+    filter: brightness(); /* média */
+}
+
+.section-clothes-mountain{
+    position: relative;
+}
+
+.texto-banner-mountain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 28%);
+
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.texto-banner-mountain h2{
+    white-space: nowrap;
+    font-size: 3.4rem;
+    font-weight: 550;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.texto-banner-mountain p{
+    font-size: 1.2rem;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.section-clothes-mountain h2{
+    margin: 30px;
+}
+
+.section-clothes-mountain p{
+    margin: 30px 0 50px 0;
+}
+
+.btn-a a{
+    width: 100px;
+    border-radius: 70px;
+    padding: 15px;
+    text-decoration: none;
+    background: var(--cor-secundaria);
+    margin-right: 20px;
+    font-size:18px;
+    height:55.6px;
+    padding: .9375rem 2rem;
+    font-weight: 550;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height:24px;
     
+}
+
+.btn-a a:hover{
+    background: var(--cor-primaria--);
+    color: var(--cor-secundaria);
+    border: none;
+    font-weight: 550;
 }
 
 .models{
@@ -307,4 +371,10 @@ h1{
 .models img{
     width: 250px;
     height: 344px;
+}
+
+.div-bags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
