@@ -187,11 +187,12 @@ h1{
     margin-bottom: 30px;
     font-size: 1.1rem;
     font-weight: 560;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    transition: 0.2s; 
 }
 
 .btn a:hover{
-    opacity: 0.7;
+    opacity:0.7;
 }
 
 .hero{
@@ -214,6 +215,7 @@ h1{
     font-weight: 540;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height:24px;
+    transition: 0.2s;
 }
 
 .section-a a:hover{
@@ -277,6 +279,7 @@ h1{
     font-weight: 550;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height:24px;
+    transition: 0.2s;
 }
 
 .div-a a:hover{
@@ -351,7 +354,7 @@ h1{
     font-weight: 550;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height:24px;
-    
+    transition: 0.2s;
 }
 
 .btn-a a:hover{
@@ -377,4 +380,27 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
+}
+
+.div-bags h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.div-bags a{
+    background: var(--cor-primaria--);
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 11px 24px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.div-bags a:hover{
+    
+    opacity: 0.7;
 }
