@@ -407,6 +407,7 @@ h1{
 .bags{
     display: flex;
     gap: 5px;
+    margin-bottom: 4%;
 }
 
 .bags img{
